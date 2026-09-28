@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        IMAGE = 'sangavi17/node dynamic'
+        IMAGE = 'sangavi17/node_dynamic'
         CONTAINER = 'static-container'
     }
     stages{
